@@ -1,0 +1,7 @@
+.headerGlobal{
+  background-color: var(--gray-700);
+  line-height: 0;
+  font-size: 0;
+  text-align: center;
+  padding: 5rem 0;
+}

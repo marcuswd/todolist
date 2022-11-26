@@ -1,0 +1,72 @@
+.headerTasks{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.TarefasCriadas{
+  color: var(--blue-300);
+  font-weight: 700;
+  font-size: .875rem;
+}
+
+.TarefasConcluidas{
+  color: var(--purple-300);
+  font-weight: 700;
+  font-size: .875rem;
+}
+
+.TarefasCriadas span,
+.TarefasConcluidas span{
+  background: var(--gray-500);
+  color: var(--gray-200);
+  display: inline-block;
+  padding: .225rem .5rem;
+  border-radius: .725rem;
+  margin-left: .225rem;
+  font-size: .75rem;
+}
+
+/* Formulário tasks */
+.addTask{
+  transform: translate(0, -50%);
+  display: grid;
+  grid-template-columns: 1fr 90px;
+  gap: .5rem;
+}
+
+.addTask input{
+  padding: 1rem 1rem;
+  line-height: 1rem;
+  border: none;
+  background-color: var(--gray-500);
+  color: var(--gray-300);
+  border-radius: 8px;
+}
+
+.addTask input:focus-within{
+  color: var(--gray-100);
+  outline: 1px solid var(--purple-700);
+}
+
+.addTask button{
+  border: none;
+  background-color: var(--blue-700);
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: 700;
+  font-size: .875rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addTask button svg{
+  margin-left: .5rem;
+}
+
+.addTask button:hover{
+  background-color: var(--blue-300);
+}
+/* Formulário tasks */

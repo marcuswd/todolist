@@ -1,0 +1,17 @@
+.empty{
+  border-top: 1px solid var(--gray-400);
+  padding: 4rem 0;
+  border-radius: 8px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.empty p{
+  margin: 0;
+  color: var(--gray-300)
+}
+
+.iconEmpty{
+  color: var(--gray-400);
+  margin-bottom: 1rem;
+}
